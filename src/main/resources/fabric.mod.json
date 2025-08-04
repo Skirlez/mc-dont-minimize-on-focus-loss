@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "dont-minimize-on-focus-loss",
+	"version": "${version}",
+	"name": "Don't minimize on focus loss",
+	"description": "Don't minimize Minecraft's window when focus is lost",
+	"authors": [
+		"skirlez"
+	],
+	"contact": {
+		"homepage": "https://github.com/Skirlez/mc-dont-minimize-on-focus-loss",
+		"sources": "https://github.com/Skirlez/mc-dont-minimize-on-focus-loss"
+	},
+	"license": "LGPLv3",
+	"icon": "assets/dont-minimize-on-focus-loss/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [		
+		{
+			"config": "client-mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": { }
+}
