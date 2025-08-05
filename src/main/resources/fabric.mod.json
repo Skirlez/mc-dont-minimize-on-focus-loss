@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "dont-minimize-on-focus-loss",
 	"version": "${version}",
-	"name": "Don't minimize on focus loss",
+	"name": "Don't Minimize on Focus loss",
 	"description": "Don't minimize Minecraft's window when focus is lost",
 	"authors": [
 		"skirlez"
@@ -22,10 +22,9 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.8",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": "*",
+		"minecraft": ">=1.20.5",
+		"java": ">=21"
 	},
 	"suggests": { }
 }
